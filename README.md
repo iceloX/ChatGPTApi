@@ -16,7 +16,14 @@ mv config.py.template  config.py
 ### 启动
 ```shell
 python3 app.py
+
 ```
+### docker
+
+```
+docker run -p 5000:5000 -v $(pwd)/config.py:/app/config.py <image_name>
+```
+
 ### 访问
 ```shell
 http://127.0.0.1:5000/v1/ai?param={param}
