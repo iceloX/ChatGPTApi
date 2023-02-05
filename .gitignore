@@ -1,0 +1,27 @@
+# .gitignore
+
+# Environment variables
+.env
+
+# Virtual environment
+env/
+
+# PyCharm files
+.idea/
+
+# Flask development server logs
+logs/
+
+# SQLite database file
+*.sqlite
+
+# Flask session files
+instance/
+
+# Cache files
+__pycache__/
+
+# Python bytecode files
+*.pyc
+
+/config.py
